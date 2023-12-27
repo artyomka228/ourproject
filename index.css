@@ -1,0 +1,75 @@
+
+body {
+    background-image: url('fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.conteinerOne{
+    background-color: rgb(208, 0, 255);
+    height: 50px;
+    width: 750px;
+    border-radius: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.conteinerTwo{
+    float: left;
+    background-color:  rgb(208, 0, 255);
+    height: 500px;
+    width: 400px;
+    border-radius: 45px;
+    margin-left: auto;
+    margin-top: auto;
+    margin: 20px;
+    transition: transform 2s, border-color 2s,width 2s,height 2s;
+}
+.conteinerTwo:hover{
+    transform: rotate(360deg);
+}
+.conteinerThree{
+    float: left;
+    display: flex;
+    background-color:  rgb(208, 0, 255);
+    height: 210px;
+    width: 700px;
+    border-radius: 45px;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    font-size: 35px;
+    margin: 30px;
+    
+}
+.conteinerFour{
+    background-color:  rgb(208, 0, 255);
+    height: 100px;
+    width: 150px;
+    border-radius: 45px;
+   position: absolute;
+    text-align: center;
+    bottom: 20%;
+    right: 50%;
+    font-size: 40px;
+    transition: transform 2s, border-color 2s,width 2s,height 2s;
+}
+.conteinerFive{
+    background-color:  rgb(208, 0, 255);
+    height: 100px;
+    width: 150px;
+    border-radius: 45px;
+   position: absolute;
+    text-align: center;
+    bottom: 20%;
+    right: 35%;
+    font-size: 40px;
+    transition: transform 2s, border-color 2s,width 2s,height 2s;
+}
+.conteinerFour:hover{
+     transform: scale(2);
+}
+.conteinerFive:hover{
+    transform: scale(2);
+}
